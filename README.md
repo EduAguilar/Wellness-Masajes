@@ -14,6 +14,8 @@ Sitio Web de Wellness Masajes, Masajes profesionales y Reiki. Luz en la mente, a
 
 **Curso**: Full stack python - modulo front end.
 
+**Profesor**: Alejandro Medici
+
 **Año Lectivo**: 2021
 
 
