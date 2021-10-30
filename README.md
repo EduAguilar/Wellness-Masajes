@@ -41,7 +41,12 @@ Docente. Ejemplo: Netlify o similar.
 ● Además de los aspectos técnicos ya mencionados, el proyecto deberá contemplar
 aspectos de diseño los cuales serán evaluados por el Docente. Para eso se
 recomienda que vean el material disponible en el Aula Virtual. Seminario de
-Diseño Web: https://youtu.be/fVkGt2tYIj0. Para más información, ver material
+Diseño Web:
+``` 
+https://youtu.be/fVkGt2tYIj0. 
+
+```
+Para más información, ver material
 incluído en el Aula Virtual Metodologías y herramientas I/Diseño.
 ● **Nota:** el TPO es individual pero en caso querer resolver el proyecto de forma
 grupal, deberán sincronizar el código del TPO en Github (o similar) enviando el link
