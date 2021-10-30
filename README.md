@@ -1,7 +1,7 @@
 # Wellness-Masajes
-Sitio Web de Wellness Masajes, Masajes profesionales y Reiki. Luz en la mente arte en las manos.
+Sitio Web de Wellness Masajes, Masajes profesionales y Reiki. Luz en la mente, arte en las manos.
 
-**Proyecto web para Trabajo Práctico: Front Integrador HTML, CSS y Javascript**
+**Proyecto web para el Trabajo Práctico: Front Integrador HTML, CSS y Javascript**
 
 **Curso Full Stack Python, del programa Codo a Codo del Ministerio de educación e Innovación- GCBA**
 
