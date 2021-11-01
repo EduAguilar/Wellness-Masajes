@@ -8,25 +8,15 @@
         <meta name="author" content="Aguilar Uribe Eduardo Alfredo">
         
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-        <!-- repeated header: note that the #include is in a HTML comment -->
-        include file ="header.html"
-        <!-- unique content here... -->
 
         <title>Wellness Masajes Profesionales</title>
+
     </head>
 <body>
-    <!--Navigation bar-->
-    <div id="nav-placeholder">
 
+    <!--inserto menu de navegación-->
+    <div id="insert-menu">
     </div>
-
-    <script>
-    $(function(){
-    $("#nav-placeholder").load("https://eduaguilar.github.io/Wellness-Masajes/pages/componentes/menu.html");
-    });
-    </script>
-    <!--end of Navigation bar-->
-
 
     <main>     
         <!-- sección carrusel -->
@@ -35,15 +25,31 @@
         </section>
  
         <!-- sección formulario -->
-        <section class="container-fluid" id="conviertete" style="width: 50%">
+        <section class="formulario">
 
         </section>
         <!-- footer -->
         <div class="footer">
 
         </div>
-    </main>
-    <script src="js/menu.js"></script>   
-    
+    </main> 
+
+    <!--funcion para el menu de navegacion-->
+    <script>
+    $(function(){
+    $("#insert-menu").load("pages/componentes/menu.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
+
+<!-- opcion 2
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>            
+        $.get("menu.html", function(data){
+            $("#insert-menu").replaceWith(data);
+        });
+    </script>
+-->
+
 </body>
 </html>
