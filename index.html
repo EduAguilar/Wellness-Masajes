@@ -3,20 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-        <title>PawCo - Estética Canina y Felina</title>
-        <script src="https://kit.fontawesome.com/70594efbed.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, user-scalable-no, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+        <meta name="description" content="Ejercicio Obligatorio Javascrip, TP Integrador - Python Full Stack, Codo a Codo">
+        <meta name="author" content="Aguilar Uribe Eduardo Alfredo">
         
-       
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&amp;display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <!-- repeated header: note that the #include is in a HTML comment -->
+        include file ="header.html"
+        <!-- unique content here... -->
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <title>Wellness Masajes Profesionales</title>
     </head>
 <body>
-    <header class="animate__animated animate__rubberBand">
-        <h1><img src="img/Logo Wellness Masajes.png" alt="Logo Wellness Masajes"></h1>
-    </header>
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+    $(function(){
+    $("#nav-placeholder").load("pages/componentes/menu.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
+
+
     <main>     
         <!-- sección carrusel -->
         <section id="seccion1">
@@ -28,34 +39,11 @@
 
         </section>
         <!-- footer -->
-        <div class="container-fluid footer">
-            <ul id="textFooter" class="nav">
-                <li class="nav-item">
-                    <a class="nav-link text-white active" aria-current="page" href="#">Preguntas<br> Frecuentes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contáctanos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Prensa</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Conferencias</a>
-                </li>
-                <li class="nav-item">
-                    <a id="termyco" class="nav-link text-white" href="#">Términos y <br> Condiciones</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Privacidad</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Estudiantes</a>
-                </li>
+        <div class="footer">
 
-            </ul>
         </div>
     </main>
-    <script src="js/offcanvas.js"></script>    
+    <script src="js/menu.js"></script>   
     
 </body>
 </html>
