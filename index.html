@@ -10,17 +10,9 @@
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
         <title>Wellness Masajes Profesionales</title>
-        <script>
-            $(function(){
-            $("#insert-menu").load("pages/componentes/menu.html");
-            });
-            </script>
-            <!--end of Navigation bar-->
 
     </head>
 <body>
-        <!--funcion para el menu de navegacion-->
-
 
     <!--inserto menu de navegación-->
     <div id="insert-menu">
@@ -29,7 +21,24 @@
     <main>     
         <!-- sección carrusel -->
         <section id="seccion1">
- 
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <img src="imagen1" style="width:100%">
+                  <div class="text">Caption Text</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="imagen2" style="width:100%">
+                  <div class="text">Caption Two</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="imagen3" style="width:100%">
+                  <div class="text">Caption Three</div>
+                </div>
+                
+            </div> 
         </section>
  
         <!-- sección formulario -->
@@ -42,7 +51,13 @@
         </div>
     </main> 
 
-
+    <!--funcion para el menu de navegacion-->
+    <script>
+    $(function(){
+    $("#insert-menu").load("pages/componentes/menu.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
 
 <!-- opcion 2
     <script src="//code.jquery.com/jquery.min.js"></script>
