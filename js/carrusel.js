@@ -1,10 +1,13 @@
 var slideIndex = 0;
+let slider = document.querySelector(".slideshow-container")
+let sliderIndividual = document.querySelectorAll(".mySlides")
+let dots = document.querySelectorAll(".dot")
 showSlides();
+
 
 function showSlides() {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
+
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
   }
