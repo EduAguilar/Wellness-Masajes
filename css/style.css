@@ -6,7 +6,7 @@ body{
 }
 /*CSS para menu de navegación*/
 .nav-bar{
-    background-image:url(../img/Background\ Header.png);
+    background-image:url(../img/Background_Header.png);
     display: block;
     color: black;
     cursor: pointer;
@@ -52,7 +52,7 @@ body{
     .menu{
         margin-left: 0;
         display: flex;
-        background-image:url(../img/Background\ Header.png);        
+        background-image:url(../img/Background_Header.png);        
     }
     .menu__link{
         color: black; 
